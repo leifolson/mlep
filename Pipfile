@@ -6,6 +6,13 @@ name = "pypi"
 [packages]
 pytest = "*"
 numpy = "*"
+ipython = "*"
+scikit-learn = "*"
+scipy = "*"
+tensorflow = "*"
+pandas = "*"
+jupyter = "*"
+mlflow = "*"
 
 [dev-packages]
 
