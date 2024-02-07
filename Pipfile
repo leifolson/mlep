@@ -13,6 +13,8 @@ tensorflow = "*"
 pandas = "*"
 jupyter = "*"
 mlflow = "*"
+alibi = "*"
+alibi-detect = "*"
 
 [dev-packages]
 
