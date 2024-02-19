@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "mlep"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+tensorflow = "2.15"
+ipython = "^8.21.0"
+numpy = "^1.26.4"
+scikit-learn = "^1.4.1.post1"
+pandas = "^2.2.0"
+scipy = "^1.12.0"
+mlflow = "^2.10.2"
+alibi = "^0.9.5"
+alibi-detect = "^0.11.5"
+jupyterlab = "^4.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
